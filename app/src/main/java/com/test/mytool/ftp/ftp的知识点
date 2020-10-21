@@ -1,0 +1,15 @@
+官网例子
+http://commons.apache.org/proper/commons-net/examples/ftp/FTPClientExample.java
+
+依赖
+implementation 'commons-net:commons-net:3.0.1'
+
+Apache Commons Net
+http://commons.apache.org/proper/commons-net/
+
+代码来源
+https://blog.csdn.net/boonya/article/details/24422299
+https://blog.csdn.net/boonya/article/details/24399901
+
+代码逻辑
+目前代码逻辑还不完整,需要自己花时间去优化
