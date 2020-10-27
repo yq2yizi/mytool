@@ -21,6 +21,10 @@ public class OffLineHandle {
         return isWifiReady;
     }
 
+    /**
+     * 此方案有一个问题,当网络不稳定或者抖动的时候,会频繁的执行任务,此处需要做过滤重复任务的操作
+     * 可以借助集合或者是数据库来排除重复任务
+     */
     public void handleOffLineTask() {
         Log.d(TAG, "handleOffLineTask: ...");
     }
